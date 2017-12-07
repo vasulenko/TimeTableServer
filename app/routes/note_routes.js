@@ -1,47 +1,65 @@
-var ObjectID = require('mongodb').ObjectID;
-module.exports = function(app, db) {
-    app.get('/notes/:id', (req, res) => {
-        const id = req.params.id;
-        const details = { '_id': new ObjectID(id) };
-        db.collection('notes').findOne(details, (err, item) => {
-            if (err) {
-                res.send({ 'error': 'An error has occurred' });
-            } else {
-                res.send(item);
-            }
+import Storage from '../store';
+import {emptyStorage} from "../store/defaultStorage";
+
+let storage = new Storage();
+module.exports = function (app) {
+  app.get('/', (req, res) => {
+    res.send(JSON.stringify({
+        data: storage.getStorage(),
+        group: storage.getGroup()
+      })
+    );
+  });
+
+  app.get('/reset', (req, res) => {
+    storage = new Storage();
+    res.send(JSON.stringify(storage.getStorage()));
+  });
+
+  app.get('/group', (req, res) => {
+    res.send(JSON.stringify(storage.getAllGroup()));
+  });
+
+  app.get('/storage', (req, res) => {
+    console.log(req.query);
+    res.send(JSON.stringify(storage.getStorageByGroup(req.query.group)));
+  });
+
+  app.post('/', (req, res) => {
+    const data = req.body.data;
+    const group = req.body.group;
+    if (data === undefined) {
+      res.sendStatus(400);
+      return;
+    }
+    try {
+      storage.setStorage(data);
+      storage.setGroup(group);
+    } catch (err) {
+      res.sendStatus(400);
+    }
+    res.sendStatus(202);
+  });
+
+  app.post('/group', (req, res) => {
+    const data = req.body.data;
+    const group = req.body.group;
+    try {
+      if (storage.getAllGroup().indexOf(group) === -1) {
+        storage.addGroup({
+          data: data.length < 7 ? emptyStorage : data,
+          group: group
         });
-    });
-    app.post('/notes', (req, res) => {
-        const note = { text: req.body.body, title: req.body.title };
-        db.collection('notes').insert(note, (err, result) => {
-            if (err) {
-                res.send({ 'error': 'An error has occurred' });
-            } else {
-                res.send(result.ops[0]);
-            }
-        });
-    });
-    app.delete('/notes/:id', (req, res) => {
-        const id = req.params.id;
-        const details = { '_id': new ObjectID(id) };
-        db.collection('notes').remove(details, (err, item) => {
-            if (err) {
-                res.send({ 'error': 'An error has occurred' });
-            } else {
-                res.send('Note ' + id + ' deleted!');
-            }
-        });
-    });
-    app.put('/notes/:id', (req, res) => {
-        const id = req.params.id;
-        const details = { '_id': new ObjectID(id) };
-        const note = { text: req.body.body, title: req.body.title };
-        db.collection('notes').update(details, note, (err, result) => {
-            if (err) {
-                res.send({ 'error': 'An error has occurred' });
-            } else {
-                res.send(note);
-            }
-        });
-    });
+      } else {
+        storage.setStorageByGroup({
+          data: data,
+          group: group
+        })
+      }
+    } catch (err) {
+      res.sendStatus(400);
+      return;
+    }
+    res.sendStatus(202);
+  });
 };
