@@ -1,299 +1,931 @@
 export const defaultStorage =
   [[{
-    'top': 'Матан',
-    'bottom': 'Англ мова'
+    'top': {
+      'context' : 'Матан',
+      'room' : '306',
+      'people' : 'Prepod'
+    } ,
+    'bottom': {
+      'context' : 'Матан',
+      'room' : '306',
+      'people' : 'Prepod'
+    }
   },
     {
-      'top': 'ООП',
-      'bottom': ''
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
     {
-      'top': '',
-      'bottom': 'ОПІ'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
     {
-      'top': 'Охорона праці',
-      'bottom': 'Інтернет тех.'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
     {
-      'top': 'Історія',
-      'bottom': 'Алгоритми та структури данних'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     }],
     [{
-      'top': 'СУБД',
-      'bottom': 'ОІТ'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'ФП',
-        'bottom': 'Архітектура комп.'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Історія',
-        'bottom': 'Матан'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ООП',
-        'bottom': 'ООП'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'фп',
-        'bottom': 'ОПІ'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'Архітектура',
-      'bottom': 'Англ мова'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'СУБД',
-        'bottom': 'СУБД'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ОІТ',
-        'bottom': 'Охорона праці'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Алгоритми та сруктури',
-        'bottom': 'СУБД'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Мат аналіз',
-        'bottom': 'Право'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'Філософія',
-      'bottom': 'Хімія'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'ООП',
-        'bottom': 'СУБД'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ОП',
-        'bottom': 'Укр мова'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Фізика',
-        'bottom': 'Ісорія'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'фп',
-        'bottom': 'Філософія'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'Алгоритми та структури',
-      'bottom': 'Охорона праці'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'Фізика',
-        'bottom': 'Хімія'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Матан',
-        'bottom': 'Право'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Політологія',
-        'bottom': 'ОПІ'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ОПІ',
-        'bottom': 'ОП'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'Матан',
-      'bottom': 'Фізика'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'Історія ',
-        'bottom': 'фізика'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Матан',
-        'bottom': 'СУБД'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'СУБД',
-        'bottom': 'ООП'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ОП',
-        'bottom': 'Іторія'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'Філософія',
-      'bottom': 'Право'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'фп',
-        'bottom': 'Охорона праці'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'ОІТ',
-        'bottom': 'фп'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Мат аналіз',
-        'bottom': 'фізика'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Алгоритми та сруктури',
-        'bottom': 'Охорона праці'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }],
     [{
-      'top': 'фп',
-      'bottom': 'Архітектура'
+      'top': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      } ,
+      'bottom': {
+        'context' : 'Матан',
+        'room' : '306',
+        'people' : 'Prepod'
+      }
     },
       {
-        'top': 'ООП',
-        'bottom': 'СУБД'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Право',
-        'bottom': 'Історія'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'фізика',
-        'bottom': 'Англ мова'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       },
       {
-        'top': 'Укр мова',
-        'bottom': 'Алгоритми та структури'
+        'top': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        } ,
+        'bottom': {
+          'context' : 'Матан',
+          'room' : '306',
+          'people' : 'Prepod'
+        }
       }]];
 export const emptyStorage = [
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+      'top': {
+        'context' : '',
+        'room' : '',
+        'people' : ''
+      } ,
+      'bottom': {
+        'context' : '',
+        'room' : '',
+        'people' : ''
+      }
+    },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
-  }, {
-    'top': '',
-    'bottom': ''
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
   }],
-  [
-    {
-      'top': '',
-      'bottom': ''
-    }, {
-      'top': '',
-      'bottom': ''
-    }, {
-      'top': '',
-      'bottom': ''
-    }, {
-      'top': '',
-      'bottom': ''
-    }, {
-      'top': '',
-      'bottom': ''
-    }],
+  [{
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  },  {
+    'top': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    } ,
+    'bottom': {
+      'context' : '',
+      'room' : '',
+      'people' : ''
+    }
+  }],
 ];

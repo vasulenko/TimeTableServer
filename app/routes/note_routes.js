@@ -20,6 +20,15 @@ module.exports = function (app) {
     res.send(JSON.stringify(storage.getAllGroup()));
   });
 
+  app.get('/room', (req, res) => {
+    res.send(JSON.stringify(storage.getAllRoom()));
+  });
+
+  app.get('/people', (req, res) => {
+    res.send(JSON.stringify(storage.getAllPeople()));
+  });
+
+
   app.get('/storage', (req, res) => {
     console.log(req.query);
     res.send(JSON.stringify(storage.getStorageByGroup(req.query.group)));
@@ -61,5 +70,15 @@ module.exports = function (app) {
       return;
     }
     res.sendStatus(202);
+  });
+
+  app.post('/people', (req, res) => {
+    const people = req.body.people;
+    res.send([{"storage": storage.getStorageByPeople(people)}]);
+  });
+
+  app.post('/room', (req, res) => {
+    const room = req.body.room;
+    res.send([{"storage": storage.getStorageByRoom(room)}]);
   });
 };
